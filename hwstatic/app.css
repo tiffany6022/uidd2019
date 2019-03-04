@@ -1,4 +1,82 @@
 body{
   background: url('./photos/sssh.png') no-repeat top/contain;
-
+  background-size: cover;
 }
+
+#hbl{
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  margin: 20px 0px 0px 30px;
+}
+
+#upright{
+  margin-left: 450px;
+  margin-top: -25px;
+}
+
+#mid{
+  margin: 70px 680px 40px 120px;
+}
+
+#down{
+  margin: 90px 800px 0px 120px;
+}
+
+a{
+  color: black;
+  padding: 0px 20px;
+}
+
+#hbl{ background-image: url('./photos/hbl.png') }
+
+h1{
+  font-size: 45px;
+  font-weight: bolder;
+  margin: 0 0 3% 0;
+}
+
+p{
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.middown{
+  margin-top: 50px;
+  margin-left: -20px;
+  margin-right: -12px;
+  font-size: 15px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.video{
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  left: 500px;
+  height: 100px;
+  width: auto;
+}
+
+.downup{
+  font-size: 18px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.righttitle{
+  padding-right:10px;
+}
+
+.downcontent{
+  padding-top: 12px;
+  font-size: 12px;;
+  display: flex;
+  justify-content: space-between;
+}
+
