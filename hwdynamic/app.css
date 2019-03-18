@@ -1,0 +1,222 @@
+body{
+	background-image: url('./images/bg1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Microsoft JhengHei;
+}
+
+#navbar{
+	margin-top: 2%;
+}
+
+#navbar li{
+	display: inline;
+	font-size: 14px;
+	padding-right: 10%;
+}
+
+#navbar li:hover{
+	cursor: pointer;
+	color: white;
+}
+
+#navbar .leftnav{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+#navbar .rightnav{
+	float: right;
+	width: 50%;
+	text-align: right;
+	box-sizing: border-box;
+}
+
+.space1{
+	padding-top: 150px;
+}
+
+#earth{
+	width: 25%;
+	display: block;
+	margin: auto;
+}
+
+#taiwan{
+	width: 15%;
+	display: block;
+	margin: auto;
+	margin-top: -13%;
+}
+
+#taiwan:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.space2{
+	padding-top: 10%;
+}
+
+#start{
+	width: 10%;
+	display: block;
+	margin: auto;
+}
+
+#start:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+#start:active{
+	padding-top: 5px;
+}
+
+#page2{
+	display: none;
+	padding-left: 40%;
+	padding-top: 15%;
+	font-size: 16px;
+}
+
+#next{
+	width: 23%;
+	padding-top: 6%;
+	padding-left: 13%;
+	border-radius: 10px;
+}
+
+#next:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+#page3{
+	display: none;
+}
+
+.secnav{
+	border-bottom:3px solid rgba(10, 0, 0, 0.65);
+	padding-top: 5%;
+	padding-bottom: 1%;
+
+}
+
+.secnav li{
+	display: inline;
+	font-size: 14px;
+	padding-right: 6%;
+}
+
+#loc{width: 2.5%;}
+#rec{width: 4%;}
+#peo{width: 4%;}
+#tim{width: 4%;}
+
+#location:hover{
+	cursor: pointer;
+}
+
+#recommendation:hover{
+	cursor: pointer;
+}
+
+#people:hover{
+	cursor: pointer;
+}
+
+#time:hover{
+	cursor: pointer;
+}
+
+#mappp{
+	display: none;
+}
+
+#map{
+	width: 50%;
+	display: block;
+	margin: auto;
+	padding-top: 3%;
+}
+
+#landmark{
+	width: 2.5%;
+	display: block;
+	margin: -30% 40%;
+}
+
+#landmark:hover{
+	cursor: pointer;
+	transform: scale(2);
+}
+
+#rightloc, #rightrec, #rightpeo, #righttim{
+	display: none;
+}
+
+#loccc{
+	width: 20%;
+	position: absolute;
+	top: 40%;
+	right: 3%;
+}
+
+#reccc{
+	width: 20%;
+	position: absolute;
+	top: 60%;
+	right: 3%;
+}
+
+#peooo{
+	width: 20%;
+	position: absolute;
+	top: 70%;
+	right: 3%;
+}
+
+#timmm{
+	width: 20%;
+	position: absolute;
+	top: 80%;
+	right: 3%;
+}
+
+#bgray1{
+	width: 19%;
+	height: 12.5%;
+	position: absolute;
+	top: 12%;
+	left: -1%;
+	display: none;
+}
+
+#bgray2{
+	width: 21%;
+	height: 12.5%;
+	position: absolute;
+	top: 12%;
+	left: 17.35%;
+	display: none;
+}
+
+#bgray3{
+	width: 17%;
+	height: 12.5%;
+	position: absolute;
+	top: 12%;
+	left: 62%;
+	display: none;
+}
+
+#bgray4{
+	width: 22.65%;
+	height: 12.5%;
+	position: absolute;
+	top: 12%;
+	right: -1%;
+	display: none;
+}
